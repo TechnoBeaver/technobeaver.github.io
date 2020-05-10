@@ -21,6 +21,7 @@
             <div class="check-out">You can check us out on social media while you wait!</div>
             <div class="twitch-embed">
                 <div id="twitch-video">
+                    <iframe src="https://embed.twitch.tv?channel=beavercorps&layout=video&theme=dark" allowfullscreen="" scrolling="no" allow="fullscreen" width="100%" frameborder="0"></iframe>
                     <noscript>
                         There would normally be a Twitch embed here, but you've disabled JS, so we won't show it. :)
                     </noscript>
@@ -32,16 +33,5 @@
                 <a href="https://instagram.com/beavercorps"><img src="/images/instagram-icon.svg"/></a>
             </div>
         </main>
-
-        <!-- for twitch embed -->
-        <script src="https://embed.twitch.tv/embed/v1.js"></script>
-        <script type="text/javascript">
-            new Twitch.Embed("twitch-video", {
-                layout: "video",
-                width: "100%",
-                channel: "beavercorps",
-                theme: "dark"
-            });
-        </script>
     </body>
 </html>
